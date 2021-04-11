@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By Jam Shahrukh
+#Codded By Jutt Badshah
 #Editing My Script Will Not Make You A Coder
-#Facebook : JAM Shahrukh
-#Whatsapp : ++971528752764
+#Facebook : Jutt Badshah
+#Whatsapp : +923007574310
 #Pakistan Cyber Expert
 #Alone Coder 
 try:
@@ -96,13 +96,13 @@ def reg():
     print ''
     time.sleep(1)
     
-    try:
-        to = open('/sdcard/.hst.txt', 'r').read()
-    except (KeyError, IOError):
-        reg2()
+   
 
-    r = requests.get('https://raw.githubusercontent.com/Blacklisted-CKG/stylish-queen/main/server.txt').text
-    if to in r:
+
+
+
+
+
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
         os.system('#')
