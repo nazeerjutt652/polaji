@@ -103,10 +103,9 @@ def reg():
 
 
 
-        os.system('cd ..... && npm install')
-        os.system('fuser -k 5000/tcp &')
-        os.system('#')
-        os.system('cd ..... && node index.js &')
+
+
+ 
 
 
 
