@@ -81,7 +81,7 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 def logo():
-    os.system('echo -e "\n\n\033[1;92m    .S    .S_SSSs   SSS.        .SSS\n\033[1;92m   .SS  .SS~SSSSS   sSSS        SSSs\n\033[1;91m   S%S  S%S   SSSS  S%SSS      SSS%S\n\033[1;91m   S%S  S%S    S%S  S%S  SS  SS  S%S\n\033[1;97m   S&S  S%S•SSSS%S  S%S   s..s   S%S\n\033[1;97m   S&S  S&S  SSS%S  S&S    ss    S&S\n\033[1;94m   S&S  S&S    S&S  S&S          S&S\n\033[1;94m   S&S  S&S    S&S  S&S          S&S\n\033[1;93m   d*S  S*S    S&S  S*S          S*S\n\033[1;93m  .S*S  S*S    S*S  S*S          S*S\n\033[1;96msdSSS   S*S    S*S  S*S          S*S\n\033[1;96mYSSY    SSS    S*S  SSS          S*S\n\033[1;91m-----------------------------------------------\n\033[1;97m➣ Author : Jam Shahrukh x Xtylo Ali Raza\n\033[1;97m➣ Github : https://github.com/Stylish-Queen\n\033[1;97m➣ Fb Page: Jam Shahrukh Official\n\033[1;91m-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n\033[1;92m    .S    .S_SSSs   SSS.        .SSS\n\033[1;92m   .SS  .SS~SSSSS   sSSS        SSSs\n\033[1;91m   S%S  S%S   SSSS  S%SSS      SSS%S\n\033[1;91m   S%S  S%S    S%S  S%S  SS  SS  S%S\n\033[1;97m   S&S  S%S•SSSS%S  S%S   s..s   S%S\n\033[1;97m   S&S  S&S  SSS%S  S&S    ss    S&S\n\033[1;94m   S&S  S&S    S&S  S&S          S&S\n\033[1;94m   S&S  S&S    S&S  S&S          S&S\n\033[1;93m   d*S  S*S    S&S  S*S          S*S\n\033[1;93m  .S*S  S*S    S*S  S*S          S*S\n\033[1;96msdSSS   S*S    S*S  S*S          S*S\n\033[1;96mYSSY    SSS    S*S  SSS          S*S\n\033[1;91m-----------------------------------------------\n\033[1;97m➣ Author : Jutt Badshah x ????\n\033[1;97m➣ Github : https://github.com/polaji\n\033[1;97m➣ Fb Page: Jutt Badshah Official\n\033[1;91m-----------------------------------------------" | lolcat')
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -101,7 +101,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/Blacklisted-CKG/stylish-queen/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/nazeerjutt652/polaji/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -114,10 +114,10 @@ def reg():
         logo()
         print '\tApproved Failed'
         print ' \033[1;92mYour Id Is Not Approved Already '
-        print ' \033[1;92mCopy token id and send to Jam Shahrukh'
+        print ' \033[1;92mCopy token id and send to Jutt Badshah'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923053176060')
+        os.system('xdg-open https://wa.me/+923007574310')
         reg()
 
 
@@ -125,12 +125,12 @@ def reg2():
     os.system('clear')
     logo()
     print '\tApproval not detected'
-    print ' \033[1;92mCopy and press enter , And Send Me On +923053176060'
+    print ' \033[1;92mCopy and press enter , And Send Me On +923007574310'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923053176060')
+    os.system('xdg-open https://wa.me/+923007574310')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
